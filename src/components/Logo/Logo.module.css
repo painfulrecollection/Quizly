@@ -1,0 +1,10 @@
+.logoLink {
+  display: inline-flex;
+  flex: none;
+}
+
+.logo {
+  height: 56px;
+  width: auto;
+  max-width: none;
+}
