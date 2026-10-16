@@ -24,6 +24,7 @@ function App() {
         <Routes>
 
           <Route element={<AppLayout />}>
+            <Route path='*' element={<NotFound />} />
             <Route path='/' element={<Home />} />
           </Route>
 
@@ -35,7 +36,6 @@ function App() {
             <Route path="/forgot-password/reset" element={<ResetPassword />} />
           </Route>
 
-          <Route path='*' element={<NotFound />} />
 
         </Routes>
       </Suspense>
