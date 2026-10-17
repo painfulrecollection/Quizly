@@ -47,12 +47,6 @@
   animation: blink 0.8s steps(1) 5;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .animation {
-    animation: none;
-  }
-}
-
 @keyframes blink {
   0% {
     opacity: 1;
