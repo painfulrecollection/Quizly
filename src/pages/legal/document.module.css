@@ -1,0 +1,30 @@
+.wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.document {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  max-width: 70ch;
+  margin-top: 64px;
+  line-height: 1.7;
+}
+
+.chapterTitle {
+  margin-bottom: 32px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.points {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-inline-start: 2em;
+}
